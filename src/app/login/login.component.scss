@@ -1,0 +1,38 @@
+@import '../app.component.scss';
+
+.form-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    button {
+        height: 40px;
+        background-color: $brand-blue;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    }
+}
+
+.input-holder {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+
+    input {
+        height: 30px;
+        padding: 0px 10px;
+    }
+}
